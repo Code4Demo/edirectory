@@ -1,0 +1,94 @@
+dn: ou=users,o=org
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: ou=groups,o=org
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+dn: cn=reader,ou=groups,o=org
+objectClass: groupOfNames
+objectClass: top
+cn: reader
+
+dn: cn=publisher,ou=groups,o=org
+objectClass: groupOfNames
+objectClass: top
+cn: publisher
+
+dn: cn=architect,ou=groups,o=org
+objectClass: groupOfNames
+objectClass: top
+cn: architect
+
+dn: cn=admin,ou=groups,o=org
+objectClass: groupOfNames
+objectClass: top
+cn: admin
+
+dn: uid=reader,ou=users,o=org
+objectClass: organizationalPerson
+objectClass: Person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Reader User
+givenName: Reader
+sn: reader
+uid: reader
+mail: reader@example.com
+ou: users
+userpassword: test
+
+dn: uid=publisher,ou=users,o=org
+objectClass: organizationalPerson
+objectClass: Person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Publisher User
+givenName: Publisher
+sn: publisher
+uid: publisher
+mail: publisher@example.com
+ou: users
+userpassword: test
+
+dn: uid=architect,ou=users,o=org
+objectClass: organizationalPerson
+objectClass: Person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Architect User
+givenName: Architect
+sn: architect
+uid: architect
+mail: architect@example.com
+ou: users
+userpassword: test
+
+dn: uid=admin,ou=users,o=org
+objectClass: organizationalPerson
+objectClass: Person
+objectClass: inetOrgPerson
+objectClass: top
+cn: Admin User
+givenName: Architect
+sn: admin
+uid: admin
+mail: admin@example.com
+ou: users
+userpassword: test
+
+dn: uid=sean,ou=users,o=org
+objectClass: organizationalPerson
+objectClass: Person
+objectClass: inetOrgPerson
+objectClass: top
+cn: sean
+givenName: li
+sn: sean
+uid: sean
+mail: sean@kineviz.com
+ou: users
+userpassword: test
